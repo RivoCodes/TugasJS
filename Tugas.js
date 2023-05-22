@@ -7,12 +7,12 @@ switch(nilai){
            break;
        case "B":
        case "C":
-           document.write("Anda Lulus")
+           document.write(ucapan+" "+"Anda Lulus")
            break;
        case "D":
-           document.write("Anda Tidak Lulus")
+           document.write(ucapan+" "+"Anda Tidak Lulus")
        default:
-           document.write("Yang Anda Masukan Tidak Benar")
+           document.write(ucapan+" "+"Yang Anda Masukan Tidak Benar")
    }
 
 //Array
